@@ -1,7 +1,7 @@
 <?php
 
 /*
- * show_404() function - 04/08/2013
+ * show_404() function - 06/08/2013
  * https://github.com/puneetkay/CodeIgniter
  *
  * @author: Puneet Kalra
