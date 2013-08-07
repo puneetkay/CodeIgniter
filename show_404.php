@@ -1,12 +1,26 @@
 <?php
 
 /*
- * show_404() function - 04/08/2013
+ * show_404() function - 06/08/2013
  * https://github.com/puneetkay/CodeIgniter
  *
  * @author: Puneet Kalra
  * http://www.puneetk.com
  */
+
+/****************************
+* INSTRUCTIONS
+*****************************
+* Copy and paste the code below to CI_INSTALLATION/system/core/CodeIgniter.php file.
+* This will override the current show_404() function and it will call the route 
+* given on '404_override' index in routes.php file. 
+****************************/
+
+/****************************
+* TESTING
+*****************************
+* This code has been tested on CI v2.1.4 only. 
+****************************/
 
 
 /****************************
