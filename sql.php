@@ -8,19 +8,19 @@
  * @subpackage    	Model
  * @category    	Model
  * @author        	Puneet Kalra (http://www.puneetk.com)
- * @license         MIT License
- * @link			https://github.com/puneetkay/CodeIgniter
+ * @license         	MIT License
+ * @link		https://github.com/puneetkay/CodeIgniter
  */
 
 
 class Sql extends CI_Model {
 
-	private $_ci;							// Holds CI instance
-	private $table = ""; 					// Holds table name
-	private $primary = "id"; 				// Holds column name with primary key
-	private $autoPrimary = true; 			// Auto fetch column name with primary key
-	private $query = null; 					// Holds query object 
-	private $resultType = 'OBJECT'; 		// Result type? Object or Array
+	private $_ci;				// Holds CI instance
+	private $table = ""; 			// Holds table name
+	private $primary = "id"; 		// Holds column name with primary key
+	private $autoPrimary = true; 		// Auto fetch column name with primary key
+	private $query = null; 			// Holds query object 
+	private $resultType = 'OBJECT'; 	// Result type? Object or Array
 	static private $primaryList = array(); 	// Holds Table/PrimaryKey map.
 
 
